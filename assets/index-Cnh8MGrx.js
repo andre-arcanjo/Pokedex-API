@@ -68,7 +68,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     :root {
      --title-color: black; 
      --text-color:white;
-     --bg-image: url('light.jpg');
+     --bg-image: url('/Pokedex-API/light.jpg');
      --color-content: #494f4e;
      --hover: rgb(32,34,36);
     }
@@ -76,7 +76,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     .dark {
       --text-color: black;
       --title-color: white;
-      --bg-image: url('dark.jpg');
+      --bg-image: url('/Pokedex-API/dark.jpg');
       --color-content: #ffff;
       --hover: rgb(138, 138, 138);
     }
