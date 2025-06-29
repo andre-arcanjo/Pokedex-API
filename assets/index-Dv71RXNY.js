@@ -93,8 +93,9 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
      color: var(--text-color);
      position: relative;
      font-family: Arial, Helvetica, sans-serif;
+     min-height: 100vh;
     }
-
+     
     .title h1 {
       text-align: center;
       padding: 20px;
@@ -102,13 +103,12 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     }
 
    .container {
-     max-width: 1240px;
+     max-width: 1440px;
      gap: 20px;
      margin: 20px;
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
-     align-itens: center;
     }
 
     .container a {
@@ -128,8 +128,8 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
      justify-content: center;
      align-items: center;
      border-radius: 10px;
-     width: 200px;
-     height: 200px;
+     width: 250px;
+     height: 250px;
     }
 
     .container .card h2 {
@@ -137,7 +137,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     }
 
     .container .card img{
-     max-width: 120px;
+     width: 160px;
     }
 
     .load-more-pokemons {
@@ -170,6 +170,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
     }
     
     .details{
+      font-size: 14px;
       background-color:var(--color-content);  
       color: var(--text-color);
       opacity: 0.8;
@@ -250,7 +251,7 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
      .details{
       width: 300px;
       height: 80vh;
-      font-size:13px;
+      font-size:12px;
      }  
      
      .details .return {
