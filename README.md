@@ -17,6 +17,18 @@ Pokedex interativa criada com React, que consome dados diretamente da PokeApi(ht
 - Botão para carregar mais pokemons na lista
 - Botão para alterar entre tema claro e escuro
 
+## Como rodar o projeto
+
+- Clone o repositório
+git clone https://github.com/andre-arcanjo/Pokedex-API.git
+cd Pokedex-API
+
+- Instale as dependências
+npm install
+
+- Rode o projeto localmente
+npm run dev
+
 ## Versão Final do Projeto
 
 <img src="./public/versao-desktop.gif" alt="gif do projeto">
